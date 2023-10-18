@@ -1,0 +1,47 @@
+.Container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Cal {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: aqua;
+}
+
+form input {
+  border: none;
+  outline: 0;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  margin: 2px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+form input[type="button"]:hover {
+  background-color: grey;
+}
+
+form .display {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 0px 15px 0px;
+}
+
+form .display input {
+  text-align: right;
+  flex: 1;
+  font-size: 40px;
+}
+
+form input.equal {
+  width: 105px;
+}
